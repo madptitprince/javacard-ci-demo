@@ -2,6 +2,9 @@ package fr.insa;
 
 import javacard.framework.*;
 
+/**
+ * Applet JavaCard de démonstration : répond "Hello World" à la commande APDU 0x80 0x01.
+ */
 public class HelloWorldApplet extends Applet {
 
     private static final byte[] HELLO_WORLD = {
